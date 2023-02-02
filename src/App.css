@@ -28,6 +28,42 @@
   color: #61dafb;
 }
 
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.favorites {
+  background-color: lightgray;
+}
+
+.favorites>div {
+  display: flex;
+  flex-direction: row;
+}
+.favorites * {
+  
+  padding: 0.5em;
+}
+
+.favorites button{
+  display:none;
+  margin: auto;
+}
+.favorites:hover {
+  /* background-color:rgba(84, 78, 78, 15); */
+
+  background-color: grey;
+}
+.favorites:hover button{
+  display: flex;
+}
+
+.favorites img {
+  height: 400px;
+  width: 400px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +71,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  list-style: none;
+}
+button {
+  margin: 10px;
+}
+
+p {
+  width: 65vw;
+  margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  color: black;
 }
