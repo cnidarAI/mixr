@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mixr/static/css/main.993e2e94.css",
+    "main.js": "/mixr/static/js/main.fb6c9495.js",
+    "index.html": "/mixr/index.html",
+    "main.993e2e94.css.map": "/mixr/static/css/main.993e2e94.css.map",
+    "main.fb6c9495.js.map": "/mixr/static/js/main.fb6c9495.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.993e2e94.css",
+    "static/js/main.fb6c9495.js"
+  ]
+}
