@@ -1,4 +1,4 @@
-#Mixr
+# Mixr
 
 ![Mixr logo](https://github.com/cnidarAI/mixr/blob/290996f7831516dbf60baba4e1eb8a5eb5e710e2/public/mixr_logo.png)
 
