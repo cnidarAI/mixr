@@ -40,5 +40,5 @@ This project was bootstrapped with create-react-app.
 
 ## Lessons Learned
 
-This was a good refresher on React with hooks and dealing with promises and asyncronous functions.
+This was a good refresher on React with hooks, dealing with promises and asyncronous functions, and consuming rest APIs.
 
