@@ -30,12 +30,12 @@ This project was bootstrapped with create-react-app.
 
 - [x] Create ReadMe
 - [x] Add favorites
-- [] Create Node/Express backend
-- [] Create login/auth
-- [] Move favorites storage from local storage to backend
-- [] Add Search function
-- [] Add Darkmode
-- [] Redesign with mobile first
+- [ ] Create Node/Express backend
+- [ ] Create login/auth
+- [ ] Move favorites storage from local storage to backend
+- [ ] Add Search function
+- [ ] Add Darkmode
+- [ ] Redesign with mobile first
 
 ## Lessons Learned
 
