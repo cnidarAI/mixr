@@ -10,9 +10,9 @@ A react front end consuming data from TheCocktailDB, (http://thecocktaildb.com),
 ## Built With:
 **Tech used: HTML, CSS, JavaScript, React
 
-[React.js](https://reactjs.org)
-[Bootstrap](https://getbootstrap.com)
-[Node.js](https://nodejs.org)
+* [React.js](https://reactjs.org)
+* [Bootstrap](https://getbootstrap.com)
+* [Node.js](https://nodejs.org)
 
 This project was bootstrapped with create-react-app.
 
