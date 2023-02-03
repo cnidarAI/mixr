@@ -18,10 +18,11 @@ This project was bootstrapped with create-react-app.
 
 ### Local Installation
 
-* npm
+* Install node dependencies
     ```sh
     npm install
     ```
+* Launch locally
     ```sh
     npm start
     ```
