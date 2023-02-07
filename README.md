@@ -36,7 +36,7 @@ This project was bootstrapped with create-react-app.
 - [ ] Move favorites storage from local storage to backend
 - [ ] Add Search function
 - [ ] Add Darkmode
-- [ ] Redesign with mobile first
+- [x] Redesign with mobile first
 
 ## Lessons Learned
 
