@@ -29,8 +29,10 @@
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 55vw;
+  width: 55vw;
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .favorites {
@@ -39,29 +41,17 @@ img {
 
 .favorites>div {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 .favorites * {
-  
   padding: 0.5em;
 }
 
-.favorites button{
-  display:none;
-  margin: auto;
-}
-.favorites:hover {
-  /* background-color:rgba(84, 78, 78, 15); */
-
-  background-color: grey;
-}
-.favorites:hover button{
-  display: flex;
-}
-
 .favorites img {
-  height: 400px;
-  width: 400px;
+  height: 55vw;
+  width: 55vw;
+  max-height: 400px;
+  max-width: 400px;
 }
 
 @keyframes App-logo-spin {
@@ -76,8 +66,12 @@ img {
 li {
   list-style: none;
 }
+div.carousel-indicators {
+  display: none;
+}
+
 button {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 p {
@@ -85,6 +79,39 @@ p {
   margin: auto;
 }
 
-.carousel-control-prev, .carousel-control-next{
+span.visually-hidden{
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+  .carousel-control-prev, .carousel-control-next, span.visually-hidden{
   color: black;
+  display: flex;
+  }
+
+  .favorites button{
+  display:none;
+  margin: auto;
+  }
+  .favorites:hover {
+    background-color: grey;
+  }
+  .favorites:hover button{
+    display: flex;
+  }
+
+  .favorites>div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  button {
+    margin: 10px;
+  }
+
+  .carousel-indicators {
+    display: flex;
+    overflow: hidden;
+  }
 }
